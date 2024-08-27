@@ -7,7 +7,7 @@
     font-weight: normal;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     iframe{
         width: 373px;
         height: 210px;
