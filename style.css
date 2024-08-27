@@ -1,0 +1,99 @@
+.py-20 {
+    padding-top: 45vh !important;
+    padding-bottom: 50vh !important;
+}
+
+#Technologies h2{
+    font-weight: normal;
+}
+
+@media (max-width: 700px){
+    iframe{
+        width: 373px;
+        height: 210px;
+    }
+}
+
+#Name {
+    animation: gradient2 10s ease infinite;
+}
+
+#Title{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    color: white;
+}
+
+#Footer{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    color: white;
+}
+
+#Title h1{
+    animation-duration: 2s;
+    animation-name: moveInLeft;
+}
+
+#Title p{
+    animation-duration: 2s;
+    animation-name: moveInRight;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(0);
+    }
+    100% {
+        opacity: 2;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(0);
+    }
+    100% {
+        opacity: 2;
+        transform: translate(0);
+    }
+}
+/* The gradient background was made by Manuel Pinto and taken from: https://codepen.io/P1N2O/pen/pyBNzX */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes gradient2 {
+    0%   {color:#e73c7e;}
+    45%  {color:#23a6d5;}
+    55%  {color:#23a6d5;}
+    100%  {color:#e73c7e;}
+}
