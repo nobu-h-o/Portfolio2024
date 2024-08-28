@@ -7,12 +7,14 @@
     font-weight: normal;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
     iframe{
-        width: 373px;
-        height: 210px;
+        width: 640px;
+        height: 360px;
     }
 }
+
+
 
 #Name {
     animation: gradient2 10s ease infinite;
