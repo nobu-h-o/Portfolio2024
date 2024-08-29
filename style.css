@@ -7,6 +7,13 @@
     font-weight: normal;
 }
 
+@media (min-width: 1600px){
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+
 @media (max-width: 1200px){
     iframe{
         width: 373px;
