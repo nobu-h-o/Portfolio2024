@@ -108,3 +108,9 @@
     55%  {color:#23a6d5;}
     100%  {color:#e73c7e;}
 }
+.btn-bd-primary {
+    --bs-btn-border-color: black;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-hover-border-bg: black;
+    --bs-btn-active-border-color: black;
+}

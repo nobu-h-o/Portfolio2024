@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/letter-n.svg">
+    <title>Nobuhiro Oto | CS Student</title>
+</head>
+
+
+
+
+<body>
+<section id="LanguageSelect">
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="true" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi my-1 theme-icon-active" width="1.5em" height="1.5em" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+            </svg>
+            <span class="visually-hidden" id="bd-theme-text">Toggle language</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text" style="position: absolute; inset: auto 0px 0px auto; margin: 0px; transform: translate(0px, -44px);" data-popper-placement="top-end">
+            <li>
+                <a href="index.html" style="text-decoration:none;">
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                        <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                            English
+                        <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                    </button>
+                </a>
+            </li>
+            </a>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark"disabled>
+                    <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                    日本語
+                    <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="Title">
+    <div class="px-4 py-20 text-center">
+        <h1 class="display-5 fw-bold">こんにちは、大戸<span id="Name">のぶ</span>ひろです。</h1>
+        <div class="col-lg-6 mx-auto">
+            <p id="Intro" class="lead mb-4" >早稲田大学でCSを勉強してます。</p>
+        </div>
+    </div>
+</section>
+
+<section id="Header">
+    <nav class="navbar navbar-expand-md navbar fixed-top ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">ぼくについて</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">ポートフォリオ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hobbies">趣味</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<Section id="About">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./images/1_l4xICbIIYlz1OTymWCoUTw.jpg" class="d-block mx-lg-auto img-fluid" alt="Technologies" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 text-body-emphasis lh-1 mb-3" id="About_Me">ぼくについて</h1>
+                <p class="lead">フルスタックエンジニアを目指し、フロントエンドとバックエンドの両方を勉強しています。Web開発の創造性と技術の組合わせに惹かれ、常に新しい技術やツールを学び続けています。</p>
+                <p class="lead">学校では、情報理工学科に所属する2年生です。履修している科目には、アルゴリズムとデータ構造、コンピュータアーキテクチャが含まれます、情報数学が含まれます。フロントエンドの勉強はUdemyなどの映像コンテンツで勉強しています。</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</Section>
+
+
+<section id="Projects">
+    <div class="container col-xxl-8 px-4">
+        <h1 class="display-5 text-body-emphasis lh-1 mb-3">ポートフォリオ</h1>
+        <p class="lead">これまでに取り組んできたプロジェクトをいくつかご紹介します。</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Screenshot 2024-08-27 171937.png" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" alt="File Manager"><rect width="100%" height="100%" fill="#55595c"></rect>
+                    <div class="card-body">
+                        <h6>ファイル管理アプリ</h6>
+                        <p class="card-text">Pythonで作成し、任意のディレクトリ内のファイルを拡張子ごとに分類するプログラム</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="btn btn-sm btn-outline-secondary" href="https://github.com/nobu-h-o/File_Manager" target=”_blank” role="button" >View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/Screenshot%202024-08-28%20044922.png" alt="Pixel Art" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect>
+                    <div class="card-body">
+                        <h6>ピクセルアート作成ツール</h6>
+                        <p class="card-text">ピクセルアートを作るためのWebアプリ</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="btn btn-sm btn-outline-secondary" href="https://github.com/nobu-h-o/PixelArt" target=”_blank” role="button" >View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/614E8EA1-EDEC-4D6D-AD35-15686E106681.jpg" alt="Weather App" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect>
+                    <div class="card-body">
+                        <h6>お天気アプリ</h6>
+                        <p class="card-text">現在の天気を教えてくれるシンプルなWebアプリ</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="btn btn-sm btn-outline-secondary" href="https://github.com/nobu-h-o/WeatherApp" target=”_blank” role="button" >View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>
+
+<section id="Hobbies">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 text-body-emphasis lh-1 mb-3">動画編集</h1>
+                <p class="lead">私の趣味の一つはビデオ編集です！映画を編集して、音楽に合わせたショートフォームの動画を作るのが好きです。YouTubeのアカウントに他の動画もあるので、よかったらご覧ください。</p>
+            </div>
+            <div  class="col-10 col-sm-8 col-lg-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YU0Ejf3vKVA?si=of4g7ttXfXnCMeOZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>
+
+<section id="Contact">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./images/6885F933-0D9F-40F6-AC14-210E7E11C1AC.jpg" class="d-block mx-lg-auto img-fluid" alt="A Photo of me" width="1179" height="1532" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 text-body-emphasis lh-1 mb-3">お問い合わせ</h1>
+                <p class="lead">私の活動に興味がありますか？nobuhirooto@gmail.comにメールを送るか、Instagramで@nobu.h.o にDMを送ってください！</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="Footer">
+    <div class="container">
+        <footer class="d-flex flex-wrap py-3 justify-content-between align-items-center">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0">2024, Nobuhiro Oto</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/nobu.h.o" target=”_blank”><img src="images/instagram-white-icon.svg" alt="instagram"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+            </ul>
+        </footer>
+    </div>
+</section>
+
+
+</body>
+
+
+
+
+
+</html>
