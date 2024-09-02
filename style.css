@@ -53,6 +53,7 @@
 #particles-js{
     height: 100vh;
     animation: fadeIn 5s;
+    background-color: rgba(0,0,0,0);
 }
 
 
