@@ -2,6 +2,11 @@
     font-weight: normal;
 }
 
+.buttonSmall{
+    width: 10rem;
+    margin-left: 16px;
+}
+
 @media (min-width: 1600px){
     iframe{
         width: 560px;
