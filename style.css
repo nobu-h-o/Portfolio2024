@@ -26,6 +26,9 @@
         width: 290px;
         height: 162px;
     }
+    .titletext{
+        width: 100vw !important;
+    }
 }
 
 
@@ -140,7 +143,7 @@ canvas{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 100vw;
+    width: 90vw;
 }
 
 .titletext h1{
