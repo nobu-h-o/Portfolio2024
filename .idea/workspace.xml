@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a8f4b89-ac66-4775-9b2a-a867c653b4c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nobu-h-o&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nobu-h-o/Portfolio2024.git&quot;,
+    &quot;accountId&quot;: &quot;c84901eb-f10b-4950-a20b-48097379b382&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2lFxvJyIbRuHAhQYSqifv7UrbxI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.indexjp.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nobuh/Documents/CS/Portfolio2024/Particlesjs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nobuh\Documents\CS\Portfolio2024\Particlesjs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nobuh\Documents\CS\Portfolio2024\Particlesjs" />
+      <recent name="C:\Users\nobuh\Documents\CS\Portfolio2024" />
+      <recent name="C:\Users\nobuh\Documents\CS\Portfolio2024\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a8f4b89-ac66-4775-9b2a-a867c653b4c0" name="Changes" comment="" />
+      <created>1724789855359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724789855359</updated>
+      <workItem from="1724789856583" duration="1191000" />
+      <workItem from="1724792434714" duration="2000" />
+      <workItem from="1724836059077" duration="839000" />
+      <workItem from="1724841567972" duration="1210000" />
+      <workItem from="1724865789410" duration="1052000" />
+      <workItem from="1724876975135" duration="2839000" />
+      <workItem from="1724881808539" duration="2953000" />
+      <workItem from="1724896533588" duration="22000" />
+      <workItem from="1724916428037" duration="128000" />
+      <workItem from="1724919050075" duration="3000" />
+      <workItem from="1724958727834" duration="4757000" />
+      <workItem from="1724967545870" duration="1109000" />
+      <workItem from="1724968861252" duration="950000" />
+      <workItem from="1725007546841" duration="243000" />
+      <workItem from="1725095165542" duration="232000" />
+      <workItem from="1725095809236" duration="137000" />
+      <workItem from="1725096899735" duration="48000" />
+      <workItem from="1725097046174" duration="17000" />
+      <workItem from="1725097203484" duration="6000" />
+      <workItem from="1725114026035" duration="612000" />
+      <workItem from="1725116713887" duration="2000" />
+      <workItem from="1725120015727" duration="215000" />
+      <workItem from="1725182944883" duration="2409000" />
+      <workItem from="1725194319914" duration="11000" />
+      <workItem from="1725203134718" duration="5000" />
+      <workItem from="1725288873613" duration="663000" />
+      <workItem from="1725289594267" duration="17000" />
+      <workItem from="1725289645957" duration="5000" />
+      <workItem from="1725289681058" duration="11000" />
+      <workItem from="1725289895624" duration="4000" />
+      <workItem from="1725289921033" duration="109000" />
+      <workItem from="1725290145933" duration="4868000" />
+      <workItem from="1725295391772" duration="1692000" />
+      <workItem from="1725298260712" duration="77000" />
+      <workItem from="1725298912518" duration="287000" />
+      <workItem from="1725305442973" duration="2826000" />
+      <workItem from="1725359698408" duration="15000" />
+      <workItem from="1725375458230" duration="125000" />
+      <workItem from="1725375773238" duration="3000" />
+      <workItem from="1725410602133" duration="1000" />
+      <workItem from="1725426333323" duration="1961000" />
+      <workItem from="1725626472956" duration="19000" />
+      <workItem from="1725690144314" duration="43000" />
+      <workItem from="1725983708537" duration="568000" />
+      <workItem from="1726046453964" duration="437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

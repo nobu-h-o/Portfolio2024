@@ -29,14 +29,6 @@
 }
 
 
-@media (max-width: 576px){
-    iframe{
-        width: 290px;
-        height: 162px;
-    }
-}
-
-
 
 #Name {
     animation: gradient2 10s ease infinite;
