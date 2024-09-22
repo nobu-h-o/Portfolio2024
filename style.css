@@ -70,6 +70,18 @@
     height: 3rem;
 }
 
+.results{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
 @keyframes moveInRight {
     0% {
         opacity: 0;
@@ -132,15 +144,6 @@ html{
 }
 
 
-.link{
-    text-decoration: none;
-}
-
-.results{
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 6px;
-}
 
 canvas{
     display:block;
