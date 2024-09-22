@@ -131,8 +131,15 @@ html{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-results{
-    border: 10px solid black !important;
+
+.link{
+    text-decoration: none;
+}
+
+.results{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
 }
 
 canvas{
