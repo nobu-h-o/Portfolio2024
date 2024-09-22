@@ -131,6 +131,9 @@ html{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+results{
+    border: 10px solid black !important;
+}
 
 canvas{
     display:block;
