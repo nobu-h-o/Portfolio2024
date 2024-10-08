@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8f4b89-ac66-4775-9b2a-a867c653b4c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/black-instagram-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8a8f4b89-ac66-4775-9b2a-a867c653b4c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +147,7 @@
       <workItem from="1727660162312" duration="38000" />
       <workItem from="1728036921641" duration="89000" />
       <workItem from="1728278288181" duration="840000" />
-      <workItem from="1728280533264" duration="916000" />
+      <workItem from="1728280533264" duration="1065000" />
     </task>
     <servers />
   </component>
