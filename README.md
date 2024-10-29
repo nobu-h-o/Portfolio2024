@@ -4,7 +4,6 @@ ___
 https://nobu-h-o.github.io/Portfolio2024/
 ___
 ## 参考文献
-https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
 https://codepen.io/P1N2O/pen/pyBNzX
 
